@@ -6,4 +6,4 @@ export default function courseReducer(state = [], action) {
     default:
       return state;
   }
-};
+}
