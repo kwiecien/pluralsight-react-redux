@@ -8,4 +8,4 @@ export default function configureStore(initialState) {
     initialState,
     applyMiddleware(reduxImmutableStateInvariant())
   );
-};
+}
