@@ -8,7 +8,7 @@ export function loadCoursesSuccess(courses) {
 export function loadCourses() {
   return function dispatch() {
     return courseApi.getAllCourses().then(courses => {
-      dispatch(loadCoursesSuccess());
+      dispatch(loadCoursesSuccess(courses));
     }).catch(error => {
       throw(error);
     });
