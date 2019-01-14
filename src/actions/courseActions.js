@@ -30,6 +30,6 @@ export function saveCourse(course) {
         dispatch(createCourseSuccess(savedCourse));
     }).catch(error => {
       throw(error);
-    })
+    });
   };
 }
