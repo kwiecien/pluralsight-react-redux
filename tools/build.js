@@ -5,7 +5,7 @@ import colors from 'colors';
 
 process.env.NODE_ENV = 'production';
 
-console.log('Generating minified bundle for production bia Webpack. This will take a moment...'.blue);
+console.log('Generating minified bundle for production via Webpack. This will take a moment...'.blue);
 
 webpack(webpackConfig).run((err, stats) => {
   if (err) {
